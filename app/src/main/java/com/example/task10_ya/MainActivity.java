@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnCreateCont
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
     {
         super.onCreateContextMenu(menu, v, menuInfo);
-        menu.setHeaderTitle("בחר פעולה:");
         menu.add("+");
         menu.add("-");
         menu.add("*");
